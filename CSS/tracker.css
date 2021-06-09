@@ -1,0 +1,135 @@
+body {
+  background: linear-gradient(360deg, #ccffff 20%, #6b66b3);
+  color: black;
+  font: normal 1em monospace, Helvetica, sans-serif;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+#main-header {
+  background: linear-gradient(35deg, #66ffff, #6b66b3);
+  width: 100%;
+  padding: 0;
+  margin-top: 0;
+}
+
+#main-header h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+#main-header a {
+  text-decoration: none;
+  color: #008800;
+  text-shadow: 1px 1px #a0a0a0;
+}
+
+.navbar {
+  background: #ccffff;
+}
+
+.navbar ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #008800;
+  font-size: 18px;
+  padding-left: 7px;
+  padding-right: 0px;
+  margin-left: 7px;
+}
+
+.navbar button {
+  background: transparent;
+  border: none;
+  color: #008800;
+  text-shadow: 1px 1px #a0a0a0;
+}
+
+.navbar button:hover {
+  background: #cfc1cf;
+}
+
+.gridContainer {
+  display: grid;
+}
+
+.htmlSection,
+.cssSection,
+.jsSection,
+.containerHome {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.container {
+  width: 80%;
+  padding-top: 2%;
+  background-color: #cfc1cf;
+  border: 5px black solid;
+  margin: auto;
+  margin-top: 2%;
+  overflow: hidden;
+}
+
+.containerHome {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.homeLogo {
+  border: 1px solid #ccc;
+  flex-basis: 25%;
+  padding: 3%;
+  margin: 1%;
+}
+
+.informationSection {
+  float: left;
+  padding-left: 20px;
+  text-align: left;
+  width: 60%;
+}
+
+.informationSection ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.informationSection a {
+  color: black;
+}
+
+.cssSection {
+  margin-bottom: 2%;
+}
+
+.empha {
+  font-style: italic;
+}
+
+.pagelogo {
+  width: 30%;
+  display: inline-block;
+}
+
+.pagelogo img {
+  width: 80%;
+  padding: 4%;
+}
+
+.current {
+  background: #00ff00;
+}
+
+.hidden {
+  visibility: hidden;
+}
